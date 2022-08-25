@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="imagens/favicon.ico">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Lista de Tarefas | Tarefas</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.svg" alt="Logo" style="width: 70px; height: auto;">
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <nav>
+        <a href="index.html">Instruções</a>
+        <a href="tarefas.html">Tarefas</a>
+    </nav>
+    <main>
+        <section id="novaTarefa">
+            <h2>Nova Tarefa</h2>
+            <input type="text" id="inputNovaTarefa" placeholder="✍️  Escreva aqui sua tarefa...">
+            <input type="submit" class="btnRedondo" id="btnNovaTarefa" value="+" onclick="adicionarTarefa()">
+            
+        </section>
+        <section id="listaDeTarefas">
+            <h2>Minhas Tarefas</h2>
+            <ul id="listaTarefas">
+            </ul>
+        </section>
+    </main>
+    <script src="app/appTarefas.js"></script>
+</body>
+</html>

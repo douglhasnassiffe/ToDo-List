@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 300px;
+    margin: 0 550px;
+    
+}
+
+header img{
+    float: left;
+}
+header h1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+nav{
+    width: 300px;
+    margin: 0 570px;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+nav a{
+    margin: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+main{
+    width: 750px;
+    margin: 40px 370px;
+
+}
+
+section{
+    width: 500px;
+    height: auto;
+    margin: 40px 100px;
+    background-color: #F6F6F9;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+section h2{
+    font-size: 19px;
+
+}
+
+#inputNovaTarefa {
+
+    font-family: 'Lato', sans-serif;
+    padding: 0 10px;
+    height: 40px;
+    width: 380px;
+    border-radius: 5px;
+    border: 1px solid #0CCBDE;
+}
+
+.btnRedondo {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 25px;
+    color: #fff;
+    background-color: #0CCBDE;
+}
+
+
+.btnRedondo:hover {
+    transform: scale(1.1);
+}
+
+#listaDeTarefas ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+#listaDeTarefas li{
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#listaDeTarefas li:hover {
+    background-color: #0CCBDE;
+}
+
+.branco{
+    background-color: #fff;
+    color: #0CCBDE;
+}
+
+.azul{
+    color: #fff;
+    background-color: #0CCBDE;
+}
